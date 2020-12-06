@@ -23,8 +23,7 @@ header .container{
     font-size: 25px;
 }
 header .Logo{
-    margin-top: -8%;
-    margin-left: ;
+    margin-left: 10px;
     
     //*
     color:var(--vermelho);
@@ -41,12 +40,13 @@ header nav a{
 }
 
 header nav a:haver{
-    color:#fff;
+    color:rgb(206, 198, 198);
 }
 
 .Filme-principal{
     margin-top: -5%;
-    font-size: 18px;
+    font-size: 22px;
+    margin-left: 20px;
     background:url('./house-of-cards-season-5.jpg');
     
     height: 600px;
