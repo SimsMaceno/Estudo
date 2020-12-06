@@ -1,0 +1,106 @@
+
+:root{
+    --vermelho: #E50914; 
+    --preta: #141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: initial;
+    justify-content: space-between;
+    font-size: 25px;
+}
+header .Logo{
+    margin-top: -8%;
+    margin-left: ;
+    
+    //*
+    color:var(--vermelho);
+    font-family: 'Arial Black' 'Times New Roman', Times, serif;
+    font-size:40px ;
+    *//
+
+} 
+
+header nav a{
+    text-decoration: none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+header nav a:haver{
+    color:#fff;
+}
+
+.Filme-principal{
+    margin-top: -5%;
+    font-size: 18px;
+    background:url('./house-of-cards-season-5.jpg');
+    
+    height: 600px;
+    background-size: cover;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: flex-start;
+    
+}
+
+.Filme-principal .descricao{
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.titulo{
+    margin-top: 15%;
+    font-size: 40px;;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50) ;
+    border: none;
+    color: white;
+    
+    margin-top: -5%;
+    padding: 15px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.Filme-principal.container{
+    width: 70%;
+}
+
+
+//* tag para alterar tons de branco da imagem, não necessario nesse caso. 
+    background: linear-gradient(rgba(0,0,0.50), rgba(0,0,0,.50)100%), url('./house-of-cards-season-5.jpg'); 
+*//
